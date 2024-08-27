@@ -1,4 +1,4 @@
-# Stock Price Prediction with Sentiment Analysis and Technical Indicators
+# Apple Stock Price Prediction with Sentiment Analysis
 
 This project combines sentiment analysis of news headlines with technical analysis indicators to predict stock prices using a deep learning model. The project leverages LSTM layers for time-series forecasting and uses a variety of techniques to enhance prediction accuracy.
 
@@ -6,7 +6,7 @@ This project combines sentiment analysis of news headlines with technical analys
 
 This project is structured into two primary components:
 
-1. **Sentiment Analysis**: Uses a pre-trained NLP model from Hugging Face's `transformers` library to analyze the sentiment of news headlines. The sentiment score is then incorporated as a feature in the stock price prediction model.
+1. **Sentiment Analysis**: Uses a pre-trained NLP model from Hugging Face's `transformers` library to analyze the sentiment of news headlines. The sentiment score is then incorporated as a feature in the stock price prediction model. The news headlines are from https://www.kaggle.com/datasets/BidecInnovations/stock-price-and-news-realted-to-it?select=AppleNewsStock.csv.
 
 2. **Stock Price Prediction**: Integrates sentiment scores along with technical indicators like RSI (Relative Strength Index), SMA (Simple Moving Average), and EMA (Exponential Moving Average) to predict stock prices using an LSTM-based deep learning model.
 
